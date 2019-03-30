@@ -1,4 +1,5 @@
 void main() {
+  // var deck = new Deck();
   var deck = Deck();
   deck.shuffle();
   print(deck);
@@ -23,6 +24,7 @@ class Deck {
     return cards.toString();
   }
 
+  // Sort by random value
   shuffle() {
     cards.shuffle();
   }
