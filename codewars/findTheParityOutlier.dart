@@ -26,6 +26,7 @@ void main() {
       print(odd[0]);
       // return odd[0];
     }
+    return 0;
   }
 
   find([2, 4, 0, 100, 4, 11, 2602, 36]);
